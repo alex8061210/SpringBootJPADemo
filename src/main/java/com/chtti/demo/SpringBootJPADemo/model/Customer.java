@@ -19,4 +19,6 @@ public class Customer {
     private String firstName;
     @Column(nullable = false)
     private String lastName;
+    @Column
+    private int age;
 }
